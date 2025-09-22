@@ -24,6 +24,7 @@ you can use mybox as if it were a Box object. But in reality, mybox simply holds
 actual Box object.
 The key to Java’s safety is that you cannot manipulate references as you can actual pointers.
 Thus, you cannot cause an object reference to point to an arbitrary memory location or manipulate it like an integer.
+The new keyword dynamicaly allocate the memory at run time and retuns a reference to myBox
 
 A Closer Look at new:
 classname class-var = new classname ( );
